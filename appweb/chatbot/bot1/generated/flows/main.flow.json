@@ -1,0 +1,99 @@
+{
+  "version": "0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.nlu.intent.is('forget')",
+        "node": "forget-my-name"
+      }
+    ]
+  },
+  "startNode": "entry",
+  "nodes": [
+    {
+      "id": "a54a82eb7c",
+      "name": "entry",
+      "onEnter": [
+        "getUserVariable {\"name\":\"nickname\",\"output\":\"$r\"}"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "state.$r !== null",
+          "node": "ask-name"
+        },
+        {
+          "condition": "true",
+          "node": "ask-name"
+        }
+      ]
+    },
+    {
+      "id": "d29fc6b771",
+      "name": "ask-name",
+      "next": [
+        {
+          "condition": "true",
+          "node": "choice-7e4125"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-z0J9qh"
+      ],
+      "onReceive": [
+        "setUserVariable {\"name\":\"nickname\",\"value\":\"{{event.text}}\",\"expiry\":\"never\"}",
+        "getUserVariable {\"name\":\"nickname\",\"output\":\"$r\"}"
+      ]
+    },
+    {
+      "id": "skill-7e4125",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "choice-7e4125",
+      "flow": "skills/choice-7e4125.flow.json",
+      "next": [
+        {
+          "caption": "User picked [varsim]",
+          "condition": "state['skill-choice-ret'] == \"varsim\"",
+          "node": "node-1635"
+        },
+        {
+          "caption": "User picked [varnao]",
+          "condition": "state['skill-choice-ret'] == \"varnao\"",
+          "node": "node-7d7c"
+        },
+        {
+          "caption": "On failure",
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "0f3e0cc970",
+      "name": "node-1635",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_text-ZeOlsb"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "54749ea822",
+      "name": "node-7d7c",
+      "next": [
+        {
+          "condition": "true",
+          "node": "END"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-6QNia4"
+      ],
+      "onReceive": null
+    }
+  ]
+}

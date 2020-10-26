@@ -1,0 +1,123 @@
+[
+  {
+    "id": "builtin_text-pSsHWg",
+    "formData": {
+      "text": "👋, {{state.$r}}!",
+      "variations": [
+        "Hello, {{state.$r}}!",
+        "Welcome to Botpress, {{state.$r}}!"
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-05-14T00:57:36.026Z"
+  },
+  {
+    "id": "builtin_text-AY5SSW",
+    "formData": {
+      "text": "This is the first time we speak 🤖",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-05-14T00:59:51.118Z"
+  },
+  {
+    "id": "builtin_text-bFsOmf",
+    "formData": {
+      "text": "We already spoke {{state.$r}} times!",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-05-14T01:00:37.593Z"
+  },
+  {
+    "id": "builtin_text-TtzrCV",
+    "formData": {
+      "text": "Alright, I have forgotten your name.",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-05-14T01:06:41.963Z"
+  },
+  {
+    "id": "builtin_text-z0J9qh",
+    "formData": {
+      "text": "Olá! qual seu nome?",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-05-14T01:08:41.241Z"
+  },
+  {
+    "id": "builtin_text-X069Le",
+    "formData": {
+      "text": "Try saying something like \"forget my name\"!",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-05-14T01:16:53.227Z"
+  },
+  {
+    "id": "builtin_text-kKQ8C3",
+    "formData": {
+      "text": "(To see how this works, double-click anywhere on the flow and go to the \"Transitions\" panel)",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-05-14T01:17:55.317Z"
+  },
+  {
+    "id": "builtin_text-p1xzKN",
+    "formData": {
+      "text": "Olá {{state.$r}} corno, quer ver um jogo que se encaixa perfeitamente para cornos como você?",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-10-07T00:09:55.349Z"
+  },
+  {
+    "id": "builtin_text-JFn~IR",
+    "formData": {
+      "text": "aqui corno, joga fogarel gratuito, vulgo jogo de corno",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-10-07T00:26:28.315Z"
+  },
+  {
+    "id": "builtin_text-3egThR",
+    "formData": {
+      "text": "Então vai toma no seu cu, sai daqui puta",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-10-07T00:27:13.741Z"
+  },
+  {
+    "id": "builtin_text-XJLB6g",
+    "formData": {
+      "text": "FALA SIM OU NAO PUTA",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-10-07T00:27:49.971Z"
+  },
+  {
+    "id": "builtin_text-ZeOlsb",
+    "formData": {
+      "text": "{{state.$r}}, você poderia jogar Fortnite, é um grande titulo no mercado! ",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-10-07T00:57:40.878Z"
+  },
+  {
+    "id": "builtin_text-6QNia4",
+    "formData": {
+      "text": "Volte logo {{state.$r}}, estamos esperando seu contato em breve!",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-10-07T00:58:13.544Z"
+  }
+]

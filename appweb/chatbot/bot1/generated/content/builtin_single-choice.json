@@ -1,0 +1,40 @@
+[
+  {
+    "id": "builtin_single-choice-v3UyZg",
+    "formData": {
+      "text": "sim ou nao puta",
+      "choices": [
+        {
+          "title": "Boa!! o jogo perfeito pra você é WOW joga essa porra",
+          "value": "sim"
+        },
+        {
+          "title": "a ti toma no cu então, sai daqui",
+          "value": "nao"
+        }
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-10-07T00:16:43.273Z"
+  },
+  {
+    "id": "builtin_single-choice-rgUYNm",
+    "formData": {
+      "text": "E ai {{state.$r}} gostaria de ver um jogo perfeito para você?",
+      "choices": [
+        {
+          "title": "SIM",
+          "value": "varsim"
+        },
+        {
+          "title": "NAO",
+          "value": "varnao"
+        }
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-10-07T00:55:59.148Z"
+  }
+]
